@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	
 }
 
 @font-face {
-	font-family: Geosanslight;
-	src: url(GeosansLight.ttf);
+	font-family: susana;
+	src: url(Susanna.otf);
+}
+@font-face {
+	font-family: GeosansLight;
+	src: url(fuentes/GeosansLight.ttf);
 }
 .menu{
     padding: 20px;
@@ -14,7 +19,7 @@
     width: 100%;
     background-color: rgb(44, 44, 44);
 	color: white;
-	font-family: Geosanslight;
+	font-family: GeosansLight;
 	font-size: 15px;
 	text-align: center;
 	
@@ -629,6 +634,24 @@ p {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+/* mapa */
+.mapa{
+	display: flex;
+	font-size: 40px;
+	padding-bottom: 100px;
+	font-family: susana;
+	
+	
+}
+.mapa .ubicanos{
+	margin: 80px;
+	
+}
+.mapa .ubicanos p{
+	width: 300px;
+	text-align: center;
+	margin: 20PX auto;
 }
 /*:::::Pie de Pagina*/
 .pie-pagina{
